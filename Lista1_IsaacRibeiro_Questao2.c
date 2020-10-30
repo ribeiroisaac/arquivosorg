@@ -70,8 +70,6 @@ int main(int argc, char**argv)
 	f = fopen("candidatos.dat","rb");
 	saida = fopen("final_candidatos.dat","w");
 
-/* PASSAR COMPARAÇÃO COM O PIVÔ */
-    
     qt = fread(&r,sizeof(Registro),1,f);
 	while(qt>0)
 	{
